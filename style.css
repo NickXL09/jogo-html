@@ -1,0 +1,55 @@
+/* Estilo geral do site */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Cor preta no fundo */
+  background-image: url('https://www.transparenttextures.com/patterns/pixel-weave.png'); /* Textura pixelada */
+  color: #0ff; /* Texto em ciano brilhante */
+  font-family: 'Press Start 2P', cursive; /* Fonte pixelada retrô */
+  text-align: center;
+}
+
+/* Espaçamento do topo */
+header {
+  padding: 50px 20px;
+}
+
+/* Título principal */
+h1 {
+  font-size: 32px;
+  text-shadow: 2px 2px #f0f; /* Sombra rosa no texto */
+}
+
+/* Texto da descrição */
+p {
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Botão "Jogar Agora" */
+.btn-jogar {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 30px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #f00; /* Vermelho vibrante */
+  text-decoration: none;
+  border: 4px double #fff; /* Borda dupla branca */
+  box-shadow: 4px 4px #000; /* Sombra preta no botão */
+  transition: 0.3s;
+}
+
+.btn-jogar:hover {
+  background-color: #0f0; /* Verde ao passar o mouse */
+  color: #000;
+}
+
+/* Rodapé */
+footer {
+  margin-top: 520px;
+  font-size: 0,6px;
+  color: #888;
+}
